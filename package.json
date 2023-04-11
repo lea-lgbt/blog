@@ -1,0 +1,38 @@
+{
+  "name": "@lea.rosema/blog",
+  "version": "0.1.0",
+  "description": "Lea's personal website",
+  "scripts": {
+    "start": "npm run dev -s",
+    "dev": "eleventy --serve",
+    "build": "cross-env NODE_ENV=production eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lea-lgbt/blog.git"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "keywords": [],
+  "author": "Lea Rosema",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0",
+    "@11ty/eleventy-img": "^3.0.0",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
+    "browserslist": "^4.21.5",
+    "cross-env": "^7.0.3",
+    "dayjs": "^1.11.7",
+    "esbuild": "^0.17.11",
+    "html-minifier-terser": "^7.1.0",
+    "lightningcss": "^1.19.0"
+  }
+}

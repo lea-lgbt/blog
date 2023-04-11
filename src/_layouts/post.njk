@@ -1,0 +1,11 @@
+---
+layout: base
+schema: blog
+---
+<div class="content">
+  <article class="flow wrapper">
+    <h1>{{ title }}</h1>
+    {% set definedDate = date %} {% include "partials/date.njk" %}
+    {{ content | safe }}
+  </article>
+</div>

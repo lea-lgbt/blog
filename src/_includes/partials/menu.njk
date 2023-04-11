@@ -1,0 +1,25 @@
+<nav id="topNav" class="top-nav" aria-labelledby="topNavHeadline">
+  <h2 id="topNavHeadline" class="visually-hidden">Top navigation</h2>
+  <ul role="list">
+    {% for item in navigation.top %}
+    <li>
+      <a
+        class="nav"
+        href="{{ item.url }}"
+        {{
+        helpers.getLinkActiveState(item.url,
+        page.url)
+        |
+        safe
+        }}
+        >{{ item.text }}</a
+      >
+    </li>
+    {% endfor %}
+    <li>
+      <button class="theme-switcher | button" aria-label="Select theme" aria-controls="themeMenu" aria-expanded="false">
+        🎨
+      </button>
+    </li>
+  </ul>
+</nav>

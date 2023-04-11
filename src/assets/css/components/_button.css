@@ -1,0 +1,36 @@
+button {
+  cursor: pointer;
+
+  appearance: none;
+  -webkit-appearance: none;
+
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+
+  background: transparent;
+  color: transparent;
+
+  font: inherit;
+  line-height: normal;
+
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+}
+
+.button {
+  background: var(--button-bg, transparent);
+  color: var(--button-fg, transparent);
+}
+
+.button:hover {
+  --button-bg: var(--button-hover-bg);
+  --button-fg: var(--button-hover-fg);
+}
+
+.button:active {
+  --button-bg: var(--button-active-bg);
+  --button-fg: var(--button-active-fg);
+}

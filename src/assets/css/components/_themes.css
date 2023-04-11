@@ -1,0 +1,5 @@
+.theme-switcher {
+  font-size: var(--step-2);
+  border-radius: 50%;
+  padding: .5em;
+}
