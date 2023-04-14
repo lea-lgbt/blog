@@ -21,7 +21,7 @@
   border-radius: .5rem;
 }
 
-.top-nav a:hover {
-  color: var(--header-bg);
-  background: var(--header-fg);
+.top-nav a:hover,
+.top-nav a[aria-current="page"] {
+  border-radius: 2px solid var(--header-fg);
 }
