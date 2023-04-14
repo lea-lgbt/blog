@@ -10,14 +10,16 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addExtension('js', {
     outputFileExtension: 'js',
     compile: async (content, fullPath) => {
-      if (path.parse(fullPath).name !== 'app.js') {
+      if (path.basename(fullPath) !== 'app.js') {
+
+        console.error('will not be processed: ', fullPath, path.parse(fullPath).name);
         return;
       }
 
       return async () => {
         let output = await esbuild.build({
           target: 'es2020',
-          entryPoints: [path],
+          entryPoints: [fullPath],
           minify: true,
           bundle: true,
           write: false,

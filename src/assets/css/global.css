@@ -4,6 +4,7 @@
 @import 'config/_spacings.css';
 @import 'config/_typography.css';
 @import 'config/_body.css';
+@import 'config/_themes.css';
 
 @import 'components/_button.css';
 @import 'components/_header.css';
@@ -22,3 +23,4 @@
 @import 'utils/_no-underline.css';
 @import 'utils/_breakpoints.css';
 @import 'utils/_wrapper.css';
+@import 'utils/_js.css';

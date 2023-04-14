@@ -35,9 +35,6 @@
             {% if preloads.crossorigin %}crossorigin{% endif %} />
     {% endif %}
 
-    <!-- defered js  -->
-    <script type="module" src="/assets/scripts/app.js?{{ assetHash }}" defer></script>
-
     <!-- everything else: meta tags, icons, open graph etc.  -->
     {% include "partials/meta-info.njk" %}
   </head>
@@ -59,5 +56,8 @@
       src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.4.0/lite-youtube.min.js"
     ></script>
     {% endif %}
+
+    <!-- defered js  -->
+    <script type="module" src="/assets/js/app.js?{{ assetHash }}" defer></script>
   </body>
 </html>

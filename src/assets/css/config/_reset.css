@@ -152,3 +152,25 @@ input[type="file"]::file-selector-button {
 button[disabled] {
   cursor: not-allowed;
 }
+
+button {
+  cursor: pointer;
+
+  appearance: none;
+  -webkit-appearance: none;
+
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+
+  background: transparent;
+  color: transparent;
+
+  font: inherit;
+  line-height: normal;
+
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+}

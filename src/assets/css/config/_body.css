@@ -8,7 +8,3 @@ body {
 *:focus-visible {
   outline: 2px solid var(--outline, #37f);
 }
-
-body:not(.js-enabled) .js {
-  display: none;
-}
