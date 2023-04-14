@@ -12,7 +12,7 @@ I'm trans. I'm a woman. Together, it's written like this: trans woman (not: tran
 
 But I also claim the label nonbinary for myself, although I'm still a very binary kind of nonbinary person, as I have a female name, binary female pronouns and a female gender marker. I'm happy with that as of current.
 
-That's totally valid, you can be trans, nonbinary and a woman the same time. Nonbinary doesn't necessarily means being a genderless entity (although it absolutely can). Also, being nonbinary doesn't mean I have to use genderneutral pronouns like they/them or neopronouns. Pronouns are for everyone, especially they are independent from the gender marker (many people get this wrong).
+That's totally valid, you can be trans, nonbinary and a woman the same time. Nonbinary doesn't necessarily mean being a genderless entity (although it absolutely can). Also, being nonbinary doesn't mean I have to use genderneutral pronouns like they/them or neopronouns. Pronouns are for everyone, especially they are independent from the gender marker (many people get this wrong).
 
 It is important to me to also describe myself as nonbinary because I believe gender is a spectrum and I want to oppose nonbinary hostility. Especially, I want to oppose the ideology of "there are 2 genders, nothing more", denying the existence of intersex and nonbinary people, which is often claimed by gender criticals. Fight the gender criticals.
 
