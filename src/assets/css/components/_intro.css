@@ -8,6 +8,7 @@
   color: var(--intro-fg);
 }
 
+
 .intro-top {
   width: 100vw;
   height: 75px;
@@ -22,7 +23,21 @@
   background: var(--bg);
 }
 
+.intro article {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 400px), 1fr));
+  gap: 2rem;
+}
+
 .intro__picture > img {
   border-radius: 12.5%;
   box-shadow: .25rem .25rem .25rem 0 #000;
+}
+
+.intro__picture {
+  max-width: 400px;
+}
+
+.intro__text header * {
+  line-height: 1;
 }
