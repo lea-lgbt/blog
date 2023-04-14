@@ -3,12 +3,14 @@ layout: base
 ---
 <div class="intro">
   <article class="flow wrapper">
-    <header class="intro__header" id="headline" tabindex="-1">
-      <p>Hello, I'm
-      <h1>{{ title }}</h1>
-    </header>
     {% image "lea.webp", "Lea, standing in front of a floral blue wallpaper, wearing a black dress, red lipstick and glasses", "(min-width: 768px) calc(50vw - 40px), calc(100vw - 40px)", "intro__picture" %}
-    <p class="intro__text">I'm a frontend developer, accessibility lover and digital artist based in Hamburg.</p>
+    <section class="intro__text flow" id="headline" tabindex="-1">
+      <header class="flow" style="--flow-space: 0;">
+        <p>Hello, I'm</p>
+        <h1>{{ title }}</h1>
+      </header>
+      <p>I'm a frontend developer, web accessibility learner and digital artist based in Hamburg.</p>
+    </section>
   </article>
 </div>
 

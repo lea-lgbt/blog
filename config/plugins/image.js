@@ -8,7 +8,7 @@ module.exports = function(eleventyConfig) {
     const fullSrc = path.join('./src', urlPath, src);
 
 		let metadata = await Image(fullSrc, {
-			widths: [300, 600],
+			widths: [200, 400],
 			formats: ["avif", "webp", "jpeg"],
       outputDir: './dist/assets/images',
       urlPath: '/assets/images',
