@@ -1,6 +1,6 @@
 module.exports = {
   url: process.env.URL || 'http://localhost:8080',
-  siteName: 'Lea codes',
+  siteName: "Lea's Blog",
   siteDescription: "Lea's Blog on web development",
   siteType: 'Person',
   locale: 'en_EN',
@@ -12,7 +12,7 @@ module.exports = {
   themeBgColor: '#F3F3F3',
   dateFormat: 'DD.MM.YYYY',
   meta_data: {
-    opengraph_default: '/assets/images/opengraph-default.jpg',
+    opengraph_default: '/assets/images/social-preview/default.jpeg',
     mastodonProfile: 'https://lea.lgbt/@lea',
   },
   pagination: {
