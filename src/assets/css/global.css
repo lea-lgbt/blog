@@ -1,6 +1,6 @@
-@import 'config/_reset.css' layer(reset);
+@import 'config/_reset.css';
 
-@import 'vendor/_prism.css' layer(vendor);
+@import 'vendor/_prism.css';
 
 @import 'config/_colors.css';
 @import 'config/_spacings.css';

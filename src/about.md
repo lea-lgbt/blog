@@ -25,5 +25,7 @@ Apart from sitting in front of the computer, I love to cook and I love to go for
 ## DON'Ts
 
 - in direct messages and chats: don't say "Hello" and nothing else (see [https://nohello.net/](https://nohello.net/)).
-- don't ask me if I had _the surgery_, remember I am just a random woman on the internet, you wouldn't (at least you should'nt) ask a stranger about their genitals. Really, that's pretty intimate. It's not your business at all.
-- I'm super uncomfortable with unsocilited flirts from people I don't know and never met.
+- don't ask me if I had _the surgery_, remember I am just a random woman on the internet
+- You wouldn't (at least you should'nt) ask a stranger about their genitals.
+- Really, that's pretty intimate. It's not your business at all.
+- I'm also super uncomfortable with unsocilited flirts from people I don't know and never met.
