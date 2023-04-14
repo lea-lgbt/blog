@@ -1,8 +1,7 @@
 .header {
   background: var(--header-bg);
   color: var(--header-fg);
-  padding-block: var(--space-m);
-  padding-inline: 1rem;
+  padding: var(--space-m) 1rem;
 
   --button-bg: var(--blue-2);
   --button-fg: #ffffff;
@@ -16,7 +15,7 @@
   --outline: #fff;
 }
 
-.header {
+.header__top {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
