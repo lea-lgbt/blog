@@ -1,6 +1,6 @@
 # Lea's Blog
 
-This is going to be a place to write for Lea. It is based on the work and following the structure and Eleventy best practices of [eleventy-excellent](https://github.com/madrilene/eleventy-excellent) by [Lene Saile](https://front-end.social/@lene).
+This is going to be a place to write for Lea. It is based on [eleventy-excellent](https://github.com/madrilene/eleventy-excellent) by [Lene Saile](https://front-end.social/@lene).
 
 ## Tech stack
 
