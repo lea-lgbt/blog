@@ -1,34 +1,12 @@
 ---
 layout: base
 ---
-
-
-
-{% set curveClass = 'intro-top' %}
-{% set curveSeed = 742 %}
-{% include "partials/curves.njk" %}
-
-<div class="intro">
-  <article class="flow wrapper">
-    <header class="intro__header" id="headline" tabindex="-1">
-      <p>Hello, I'm</p>
-      <h1>{{ title }}</h1>
-    </header>
-    {% image "lea.webp", "Lea, standing in front of a floral blue wallpaper, wearing a black dress, red lipstick and glasses", "(min-width: 768px) calc(50vw - 40px), calc(100vw - 40px)", "intro__picture" %}
-    <p class="intro__text">I'm a frontend developer, accessibility lover and digital artist based in Hamburg.</p>
-  </article>
-</div>
-
-{% set curveClass = 'intro-bottom' %}
-{% set curveSeed = 342 %}
-{% include "partials/curves.njk" %}
-
 <div class="content">
   <article class="flow wrapper">
     <h2>Articles</h2>
-    <ul role="list" class="auto-grid">
+    <ul role="list" class="auto-grid" style="--min: 40ch">
     {% for post in collections.posts | reverse %}
-      <li class="article-card | wrapper flow prose">
+      <li class="article-card | flow prose">
         <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
         {% set definedDate = post.data.date %}
         {% include "partials/date.njk" %}
