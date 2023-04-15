@@ -5,7 +5,7 @@ schema: blog
 <div class="content">
   <article class="flow wrapper">
     <h1>{{ title }}</h1>
-    {% set definedDate = date %} {% include "partials/date.njk" %}
+    {% set definedDate = date %} {% include "partials/date.njk" %} by {%- if author -%}{{ author }}{%- elseif meta.author -%}{{ meta.author }}{%- endif -%}
     {{ content | safe }}
   </article>
 </div>
