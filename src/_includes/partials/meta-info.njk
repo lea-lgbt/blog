@@ -2,14 +2,13 @@
 
 <meta
   name="description"
-  content="
-  {% if seo.description %} {{ seo.description }}
-  {% elif description %}
+  content="{%- if seo.description -%}
+  {{ seo.description }}
+  {%- elif description -%}
   {{ description }}
-  {% else %}
+  {%- else -%}
   {{ meta.siteDescription }}
-  {% endif %}
-  "
+  {%- endif -%}"
 />
 
 <meta name="theme-color" content="{{ meta.themeColor }}" />
@@ -38,15 +37,15 @@
 />
 <meta
   property="og:image"
-  content="{{ meta.url }}{% if (layout == 'post') %}/assets/images/social-preview/{{
+  content="{{ meta.url }}{%- if (layout == 'post') -%}/assets/images/social-preview/{{
     title | slugify
   }}-preview.jpeg
-  {% else %}{{ meta.meta_data.opengraph_default }}
-  {% endif %}"
+  {%- else -%}{{ meta.meta_data.opengraph_default }}
+  {%- endif -%}"
 />
 <meta
   property="og:image:alt"
-  content="{% if (layout == 'post') %}{% else %}{{ meta.meta_data.opengraph_default_alt }}
+  content="{% if (layout == 'post') %}{{ title }}{% else %}{{ meta.meta_data.opengraph_default_alt }}
 {% endif %}"
 />
 <meta

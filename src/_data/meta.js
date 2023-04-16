@@ -13,6 +13,7 @@ module.exports = {
   dateFormat: 'DD.MM.YYYY',
   meta_data: {
     opengraph_default: '/assets/images/social-preview/default.jpeg',
+    opengraph_default_alt: "Lea's Blog",
     mastodonProfile: 'https://lea.lgbt/@lea',
   },
   pagination: {
