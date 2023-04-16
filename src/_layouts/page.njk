@@ -1,10 +1,11 @@
 ---
 layout: base
 ---
-
-<article class="region">
-  <div class="wrapper flow prose">
-    <h1 class="gradient-text">{{ title }}</h1>
+<div class="content">
+  <article class="flow wrapper">
+    <h1>{{ title }}</h1>
+    {% set definedDate = date %} {% include "partials/date.njk" %}
+    by {% if author %}{{ author }}{% elseif meta.author %}{{ meta.author }}{% endif %}
     {{ content | safe }}
-  </div>
-</article>
+  </article>
+</div>

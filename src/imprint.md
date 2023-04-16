@@ -1,6 +1,7 @@
 ---
 title: Imprint
-layout: post
+layout: page
+eleventyExcludeFromCollections: true
 ---
 
 ## Data according to § 5 TMG
