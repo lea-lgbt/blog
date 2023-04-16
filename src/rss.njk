@@ -17,8 +17,8 @@ excludeFromSitemap: true
     <pubDate>{{ posts | getNewestCollectionItemDate | dateToRfc822 }}</pubDate>
     <lastBuildDate>{{ global.currentDate() | dateToRfc822 }}</lastBuildDate>
     <language>{{ meta.lang }}</language>
-    <copyright>(c) {% year %} {{ author }}</copyright>
-    <generator>https://11ty.dev</generator>
+    <copyright>(c) {% year %} {{ meta.author }}</copyright>
+    <generator>{{ eleventy.generator }}</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <managingEditor>{{ meta.authorEmail }} ({{ meta.author }})</managingEditor>
     {% for post in posts | reverse -%}
