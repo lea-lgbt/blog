@@ -1,5 +1,6 @@
 ---
 title: About me
+description: Hi, I'm Lea (she/her). I am a nonbinary trans woman, working as a frontend developer with a focus on accessibility and web performance.
 date: 2023-04-15
 layout: post
 ---
