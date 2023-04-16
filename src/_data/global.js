@@ -5,4 +5,7 @@ module.exports = {
     };
     return `${segment()}-${segment()}-${segment()}`;
   },
+  currentDate() {
+    return new Date();
+  }
 };

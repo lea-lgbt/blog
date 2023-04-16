@@ -15,6 +15,14 @@ module.exports = {
   ],
   bottom: [
     {
+      text: 'Sitemap',
+      url: '/sitemap.xml'
+    },
+    {
+      text: 'RSS',
+      url: '/rss.xml'
+    },
+    {
       text: 'Imprint',
       url: '/imprint/',
     },

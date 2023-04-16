@@ -1,3 +1,4 @@
+const array = require('./array');
 const formatDate = require('./formatdate');
 const isoDate = require('./isodate');
 const limit = require('./limit');
@@ -7,6 +8,7 @@ const splitLines = require('./splitlines');
 const slugify = require('./slugify');
 
 const filterPlugin = (eleventyConfig) => {
+  eleventyConfig.addFilter('array', array);
   eleventyConfig.addFilter('formatDate', formatDate);
   eleventyConfig.addFilter('isoDate', isoDate);
   eleventyConfig.addFilter('limit', limit);
