@@ -73,3 +73,8 @@ h1, h2, h3, h4, h5  {
   font-weight: 500;
   color: var(--headline-fg);
 }
+
+ul:not([role="list"]),
+ol:not([role="list"]) {
+  padding-inline-start: 1.5em;
+}
