@@ -1,9 +1,11 @@
 ---
 title: Hello World!
+description: Hello world, this is my new blog, a place to write for me.
+categories: gossip, eleventy, learnings
 ---
 Hello world, this is my new blog, a place to write for me.
 
-It is based on [eleventy-excellent](https://github.com/madrilene/eleventy-excellent) by [Lene Saile](https://front-end.social/@lene). I learned a lot of new things by studying her work. It's indeed excellent.
+It is based on [eleventy-excellent](https://github.com/madrilene/eleventy-excellent) by [Lene Saile](https://lenesaile.com). I learned a lot of new things by studying her work. It's indeed excellent.
 
 ## Learnings:
 
