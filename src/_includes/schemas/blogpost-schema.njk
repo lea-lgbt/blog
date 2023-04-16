@@ -9,7 +9,7 @@
     "isPartOf": {
       "@id": "{{ meta.url }}#website"
     },
-    "@id": "{{ page.url }}",
+    "@id": "{{ meta.url }}{{ page.url }}",
     "headline": "{{ title or meta.siteName }}",
     "description": "{{ description or meta.siteDescription }}",
     "image": "{{ meta.url }}{{ meta.meta_data.opengraph_default }}",
