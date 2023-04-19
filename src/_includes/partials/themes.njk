@@ -1,6 +1,6 @@
 {%- set themes = ['dark', 'light', 'yellow'] -%}
 <aside class="themes | wrapper flow js" id="themeMenu" aria-labelledby="themeMenuHeadline">
-  <h2>Pick a theme:</h2>
+  <h2 id="themeMenuHeadline">Pick a theme:</h2>
   <ul class="themes__list" role="list">
     {% for theme in themes %}
     <li class="themes__list-item">

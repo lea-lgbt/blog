@@ -5,9 +5,9 @@
   "scripts": {
     "start": "npm run dev -s",
     "dev": "eleventy --serve",
-    "lint": "npm run lint:html -s && npm run lint:css -s && npm run lint:js",
+    "lint": "npm run lint:format -s && npm run lint:html -s && npm run lint:css -s && npm run lint:js",
     "lint:format": "editorconfig-checker",
-    "lint:html": "java -jar node_modules/vnu-jar/build/dist/vnu.jar dist/**/*.html",
+    "lint:html": "java -jar node_modules/vnu-jar/build/dist/vnu.jar --filterfile .vnurc dist/**/*.html",
     "lint:css": "stylelint \"src/assets/css/**/*.css\"",
     "lint:js": "eslint eleventy.config.js src/assets/js/**/*.js",
     "build": "cross-env NODE_ENV=production eleventy"
@@ -45,6 +45,7 @@
     "eslint": "^8.38.0",
     "html-minifier-terser": "^7.2.0",
     "lightningcss": "^1.19.0",
+    "linkedom": "^0.14.25",
     "semantic-release": "^21.0.1",
     "stylelint": "^15.5.0",
     "stylelint-config-recommended": "^12.0.0",
