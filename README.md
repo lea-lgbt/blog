@@ -13,3 +13,9 @@ npm run dev
 ```
 
 This will open a dev server running on localhost:8080, watching for changes.
+
+## GitHub actions
+
+There are github actions for running automated checks on the code base, so I can be sure the HTML/CSS/JS and also the formatting of the files are all respecting the provided editorconfig.
+
+All credits of the automated checks go to [Vadim Makeev](https://github.com/pepelsbey/pepelsbey.dev).
