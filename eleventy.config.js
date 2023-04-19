@@ -31,7 +31,6 @@ module.exports = (eleventyConfig) => {
 
   // short codes
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`); // current year, stephanie eckles
-  eleventyConfig.addShortcode('packageVersion', () => `v${packageVersion}`);
 
   // passthrough copy
   // same path
