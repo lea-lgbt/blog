@@ -1,4 +1,4 @@
-name: EditorConfig
+name: lint-format
 
 on:
   pull_request:
