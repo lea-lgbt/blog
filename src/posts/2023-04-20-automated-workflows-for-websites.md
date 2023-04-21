@@ -63,7 +63,7 @@ Additionally, I've set up a [GitHub action](https://github.com/lea-lgbt/blog/blo
 
 ## Stylelint
 
-Same as above for stylelint. I'm using a minimalistic stylelint configuration to avoid the most common pitfalls. I have to find out for myself which configuration works best for me. For now I went with `stylelint-config-recommended` and I have also set up a [github actio](https://github.com/lea-lgbt/blog/blob/main/.github/workflows/lint-css.yml) for this. 
+Same as above for stylelint. I'm using a minimalistic stylelint configuration to avoid the most common pitfalls. I have to find out for myself which configuration works best for me. For now I went with `stylelint-config-recommended` and I have also set up a [github action](https://github.com/lea-lgbt/blog/blob/main/.github/workflows/lint-css.yml) for this. 
 
 ## Semantic Release
 
