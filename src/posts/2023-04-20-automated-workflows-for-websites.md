@@ -2,6 +2,7 @@
 title: Automated workflows for websites
 description: In this article, I'm writing about automated workflows I added to this blog.
 categories: learnings, github actions
+date: 2023-04-20
 ---
 A thing I did recently was adding some automated workflows to my blog so I can be sure my HTML, CSS, JS is valid and everything respects the editorconfig.
 
@@ -11,7 +12,7 @@ Credits for the automated checks and transforms go to [Vadim Makeev](https://pep
 
 ## HTML Validator
 
-For validating HTML, I'm running the [Nu HTML Validator](https://validator.w3.org/nu/) against the dist directory. Validating HTML helps catching mistakes I might have otherwise missed, which also catches accessibility bugs.
+For validating HTML, I'm running the [Nu HTML Validator](https://validator.w3.org/nu/) against the dist directory. Validating HTML helps catching mistakes I might have otherwise missed. It also catches some accessibility bugs, like an `aria-labelledby` pointing to an invalid id.
 
 I installed it via `npm i -D vnu-jar` and added an npm script for checking the html:
 
@@ -28,6 +29,8 @@ In the filter file, you can specify regular expressions to ignore certain errors
 ```txt
 The .list. role is unnecessary for element .ul.\.
 ```
+
+This [GitHub action](https://github.com/lea-lgbt/blog/blob/main/.github/workflows/lint-html.yml) executes these check on every commit.
 
 ## Post-processing HTML 
 
@@ -60,7 +63,7 @@ Additionally, I've set up a [GitHub action](https://github.com/lea-lgbt/blog/blo
 
 ## Stylelint
 
-Same as above for stylelint. I'm using a minimalistic stylelint configuration to avoid the most common pitfalls. I have to find out for myself which configuration works best for me. For now I went with `stylelint-config-recommended` and I have also set up a [github actionn](https://github.com/lea-lgbt/blog/blob/main/.github/workflows/lint-css.yml) for this. 
+Same as above for stylelint. I'm using a minimalistic stylelint configuration to avoid the most common pitfalls. I have to find out for myself which configuration works best for me. For now I went with `stylelint-config-recommended` and I have also set up a [github actio](https://github.com/lea-lgbt/blog/blob/main/.github/workflows/lint-css.yml) for this. 
 
 ## Semantic Release
 
@@ -75,3 +78,8 @@ For now, I just publish to GitHub, not to NPM (thus the `private` field in the `
 To set it up, all I had to do was to `npm i -D semantic-release`, setup the repository URL in the `package.json`, setup a [github action](https://github.com/lea-lgbt/blog/blob/main/.github/workflows/release.yml) and set the permissions for actions inside my organization to read/write access.
 
 I mainly used semantic-release for library code, not for websites yet. So this is more of an experiment, I don't know yet if it is too useful.
+
+## Further improvement
+
+Of course, there is room for further improvement. One thing to look into are automated accessibility checks out there, like [pa11y](https://pa11y.org/).
+There's a lot of stuff I have to experiment with and figure out what works best for me. Especially the html validation was very insightful and helped identifying some issues in the document structure, but I might not need it on every commit.
