@@ -13,7 +13,8 @@ module.exports = function (window, _content, path) {
   const skipLink = document.querySelector('.skip-link');
   const h1 = document.querySelector('h1');
   if (! h1) {
-    throw new Error('no H1 detected in ' + path);
+    skipLink.remove();
+  } else {
+    skipLink.setAttribute('href', `#${h1.getAttribute('id')}`);
   }
-  skipLink.setAttribute('href', `#${h1.getAttribute('id')}`);
 }
