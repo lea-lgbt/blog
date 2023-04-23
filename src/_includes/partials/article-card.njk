@@ -10,7 +10,7 @@
   <ul class="article-card__tag-list">
     {% for tag in post.data.tags %}
       <li>
-        <a class="button button--small" href="#">{{ tag }}</a>
+        <a class="button button--small" href="{{ meta.url }}/blog/tags/{{ tag }}/">{{ tag }}</a>
       </li>
     {% endfor %}
   </ul>
