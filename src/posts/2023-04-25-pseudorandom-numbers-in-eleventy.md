@@ -1,10 +1,10 @@
 ---
 title: Pseudorandom numbers in Eleventy
 description: Create deterministic series of random numbers for generative arts
-tags: eleventy, numbers
+tags:
+  - eleventy
+  - numbers
 ---
-# Pseudorandom numbers in Eleventy
-
 This blog uses social preview images with some generative waves using the [disability pride flag colors](https://www.disabled-world.com/definitions/disability-pride.php). In order to always have the same wave art on every build, I am not using `Math.random()` to generate
 random path coordinates but a pseudorandom number generator. It generates a deterministic series of numbers from a given seed value. This way it is ensured every build always generates the same image.
 
