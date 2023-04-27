@@ -40,3 +40,9 @@ Also, it is important to me to oppose nonbinary hostility and gatekeeping of gen
 - in direct messages and chats: don't say "Hello" and nothing else (see [https://nohello.net/](https://nohello.net/)).
 - I'm also super uncomfortable with unsocilited flirts from people I don't know.
 - No intimate questions if we don't know each other.
+
+## Request
+
+If you mentioned my dead name somewhere on the internet over the years, please kindly update the references to use Lea instead as well as the correct pronouns (she/her).
+
+I've seen that request on [https://kittygiraudel.com/about/](https://kittygiraudel.com/about/). I actually had their dead name referenced in old works and updated that. I chose to also shamelessly copycat this request into my own about page. I don't have that much great stuff I contributed to, still there are traces of my dead name on popular places on the internet I would love to have removed.
