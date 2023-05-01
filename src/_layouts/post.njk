@@ -7,6 +7,13 @@ schema: blog
     <h1>{{ title }}</h1>
     {% set definedDate = date %} {% include "partials/date.njk" %}
     by {% if author %}{{ author }}{% elseif meta.author %}{{ meta.author }}{% endif %}
-    {{ content | safe }}
+    {% if cw %}
+      <details class="flow">
+        <summary>{{ cw }}</summary>
+        <div class="flow">
+          {{ content | safe }}
+        </div>
+      </details>
+    {% else %}{{ content | safe }}{% endif %}
   </article>
 </div>
