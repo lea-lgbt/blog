@@ -19,6 +19,7 @@
 @import 'components/_intro.css';
 @import 'components/_themes.css';
 @import 'components/_skip-link.css';
+@import 'components/_heading-wrapper.css';
 
 @import 'utils/_auto-grid.css';
 @import 'utils/_visually-hidden.css';
