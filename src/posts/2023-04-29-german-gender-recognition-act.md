@@ -1,6 +1,7 @@
 ---
 title: Gender Recognition Act in Germany
 description: CW negative, german politics, trans hostility. Yesterday, the law draft for the promised gender recognition act (Selbstbestimmungsgesetz) was leaked. Sadly, the main focus weren't trans people but anti-trans talking points. 
+cw: CONTENT WARNING for negative german politics and trans hostility.
 date: 2023-04-29
 tags: 
   - politics
@@ -8,8 +9,6 @@ tags:
   - trans
   - negative
 ---
-CONTENT WARNING for negative german politics and trans hostility.
-
 Yesterday, the law draft for the promised gender recognition act (aka Selbstbestimmungsgesetz or self-determination act) was leaked. 
 Sadly, the main focus weren't trans people but anti-trans talking points. TLDR it doesn't deserve to be called self-determination act.
 
