@@ -38,10 +38,9 @@ excludeFromSitemap: true
       {%- endfor %}
       <content:encoded><![CDATA[
       {%- if post.data.cw -%}
-        <details><summary>{{ post.data.cw }}</summary>{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | safe }}</details>
-      {%- else -%}
-        {{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | safe }}
+        <p><strong>{{ post.data.cw }}</strong></p>
       {%- endif -%}
+      {{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | safe }}
       ]]></content:encoded>
     </item>
     {%- endfor %}
