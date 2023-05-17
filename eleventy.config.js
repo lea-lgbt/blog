@@ -7,11 +7,12 @@ const esbuildPlugin = require('./config/plugins/esbuild');
 const lightningCSSPlugin = require('./config/plugins/lightning-css');
 const htmlTransformPlugin = require('./config/plugins/html-transform');
 const imagePlugin = require('./config/plugins/image');
+const demoPlugin = require('./config/plugins/demo');
 
 const { filterPlugin } = require('./config/filters/index');
 
 // module import events
-const { svgToJpeg } = require('./config/events/index.js');
+const { svgToJpeg, demoCodeviews } = require('./config/events/index.js');
 
 module.exports = (eleventyConfig) => {
   // custom watch targets
@@ -25,6 +26,7 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addPlugin(htmlTransformPlugin);
   eleventyConfig.addPlugin(imagePlugin);
+  eleventyConfig.addPlugin(demoPlugin);
 
   // filters
   eleventyConfig.addPlugin(filterPlugin);
@@ -48,7 +50,10 @@ module.exports = (eleventyConfig) => {
   });
 
   // build events
-  eleventyConfig.on('afterBuild', svgToJpeg);
+  eleventyConfig.on('afterBuild', () => {
+    svgToJpeg();
+    demoCodeviews();
+  });
 
   // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
   eleventyConfig.setUseGitIgnore(false);

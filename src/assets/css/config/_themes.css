@@ -30,11 +30,17 @@
 
   --button-hover-brd: 1px solid var(--pink--4);
   --button-hover-bg: var(--pink-3);
-  --button-hover-fg: #ffffff;
+  --button-hover-fg: #fff;
 
   --button-active-brd: 1px solid transparent;
   --button-active-bg: var(--pink-5);
   --button-active-fg: #000;
+
+  --tabs-bg: #000;
+  --tabs-tab-bg: #000;
+  --tabs-tab-fg: var(--grey-5);
+  --tabs-tab-active-bg: var(--grey-2);
+  --tabs-tab-active-fg: #fff;
 }
 
 
@@ -71,6 +77,12 @@
 
     --button-active-bg: var(--pink-2);
     --button-active-fg: #ffffff;
+
+    --tabs-bg: var(--grey-5);
+    --tabs-tab-bg: var(--grey-5);
+    --tabs-tab-fg: var(--grey-1);
+    --tabs-tab-active-bg: #fff;
+    --tabs-tab-active-fg: #000;
   }
 }
 
@@ -106,6 +118,12 @@
 
   --button-active-bg: var(--pink-2);
   --button-active-fg: #ffffff;
+
+  --tabs-bg: var(--grey-5);
+  --tabs-tab-bg: var(--grey-5);
+  --tabs-tab-fg: var(--grey-1);
+  --tabs-tab-active-bg: #fff;
+  --tabs-tab-active-fg: #000;
 }
 
 [data-theme="yellow"] {
@@ -140,6 +158,12 @@
 
   --button-active-bg: #000;
   --button-active-fg: #cc0;
+
+  --tabs-bg: #000;
+  --tabs-tab-bg: #000;
+  --tabs-tab-fg: #cc0;
+  --tabs-tab-active-bg: #cc0;
+  --tabs-tab-active-fg: #000;
 }
 
 [data-theme="yellow"] .logo__svg g {
@@ -157,3 +181,16 @@
 [data-theme="yellow"] img {
   filter: sepia(1) brightness(0.5);
 }
+
+[data-theme="yellow"] pre[class] {
+  border: 1px solid #cc0;
+}
+
+
+[data-theme="yellow"] pre[class],
+[data-theme="yellow"] code[class],
+[data-theme="yellow"] code[class] * {
+  background: #000!important;
+  color: #cc0!important;
+}
+

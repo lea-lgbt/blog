@@ -2,9 +2,7 @@ const dom = require('linkedom');
 const htmlmin = require('html-minifier-terser');
 const isProduction = process.env.ELEVENTY_ENV === 'production';
 
-const transforms = [
-  require('../transforms/headlines')
-];
+const transforms = require('../transforms/index.js');
 
 const minify = (content) => htmlmin.minify(content, {
   collapseBooleanAttributes: true,
@@ -20,11 +18,14 @@ module.exports = (eleventyConfig) => {
       const window = dom.parseHTML(content);
 
       for (const transform of transforms) {
-        await transform(window, content, path);
+        const postprocess = await transform(window, content, path);
+        content = window.document.toString();
+        if (typeof postprocess === "function") {
+          content = await postprocess(content);
+        }
       }
 
-      const transformedContent = window.document.toString();
-      return isProduction ? minify(transformedContent) : transformedContent;
+      return isProduction ? minify(content) : content;
     }
 
     return content;
