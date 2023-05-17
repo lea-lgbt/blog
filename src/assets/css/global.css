@@ -20,6 +20,8 @@
 @import 'components/_themes.css';
 @import 'components/_skip-link.css';
 @import 'components/_heading-wrapper.css';
+@import 'components/_demo-figure.css';
+@import 'components/_tabs.css';
 
 @import 'utils/_auto-grid.css';
 @import 'utils/_visually-hidden.css';
@@ -29,3 +31,4 @@
 @import 'utils/_breakpoints.css';
 @import 'utils/_wrapper.css';
 @import 'utils/_js.css';
+@import 'utils/_block-link.css';
