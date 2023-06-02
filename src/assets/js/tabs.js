@@ -6,8 +6,6 @@ $$('[role="tab"]').forEach(tab => {
     const controls = tab.getAttribute('aria-controls');
     const tabs = tab.parentNode.querySelectorAll('[role="tab"]');
     const panels = tab.parentNode.parentNode.querySelectorAll('[role="tabpanel"]');
-    console.log(tabs);
-    console.log(panels);
     tabs.forEach(t => {
       t.setAttribute('aria-selected', t === tab);
     });
