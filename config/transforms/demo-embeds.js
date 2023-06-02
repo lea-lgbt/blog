@@ -33,7 +33,7 @@ const tabs = ({title, selected = 'code', code, href}) => {
       ${arrowIcon}
       <span class="visually-hidden">open in new window</span>
     </a>
-    <iframe src="${href}" title="${title}"></iframe>
+    <iframe src="${href}" title="${title}" loading="lazy"></iframe>
   </div>
 </div>`
 };

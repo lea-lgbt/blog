@@ -7,7 +7,7 @@ tags:
   - javascript
   - meta
 ---
-I wanted to embed demo snippets of html/css/js into my articles, so I added a `{% raw %}{% demo "demo-name" %}{% endraw %}` shortcode to my Eleventy blog. Those demos are just plain html files located in `src/demos`, with everything inline, with the html skeleton provided by Eleventy. 
+I wanted to embed demo snippets of html/css/js into my articles, so I added a `{% raw %}{% demo "demo-name" %}{% endraw %}` shortcode to my Eleventy blog. Those demos are just plain html files located in `src/demos`, with everything inline, with the html skeleton provided by Eleventy.
 
 As `<style>` tags would then be put into the body, I added a html transform rule which moves those `<style>` tags from `<body>` to `<head>`. Although browsers seem to tolerate style tags inside `<body>`, it would not be valid HTML.
 
@@ -35,7 +35,7 @@ Below is an example of such a demo embed.
 
 {% demo "hello-world" %}
 
-In a next iteration, I could maybe separate the code into HTML/CSS/JS tabs, similar to what you know from embeds like Codepen or jsfiddle. 
+In a next iteration, I could maybe separate the code into HTML/CSS/JS tabs, similar to what you know from embeds like Codepen or jsfiddle.
 
 ## The code
 

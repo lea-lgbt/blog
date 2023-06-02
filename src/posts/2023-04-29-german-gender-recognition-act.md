@@ -9,15 +9,15 @@ tags:
   - trans
   - negative
 ---
-Yesterday, the law draft for the promised gender recognition act (aka Selbstbestimmungsgesetz or self-determination act) was leaked. 
+Yesterday, the law draft for the promised gender recognition act (aka Selbstbestimmungsgesetz or self-determination act) was leaked.
 Sadly, the main focus weren't trans people but anti-trans talking points. TLDR it doesn't deserve to be called self-determination act.
 
 The main concern of the gender recognition act reform in Germany (so called #selbstbestimmungsgesetz) should have been how to remove discrimination and make life easier for trans people. But in fact the law drafter's main concern was how to prevent potential abuse of the law through men, which is a talking point mostly driven by the far-right and anti-trans activists.
 
 I won't share the far-right news site where the leak of the law appeared but instead a [friendly source](https://strangeobject.space/@lydiafacts/110277216813843841).
 
-The fear of potential abuse is spread across the whole law text. Improvements for trans people were not the focus. 
-Formerly, 2 psychiatric assessments were necessary to change your name and gender marker, you had to answer very intimate questions and you have to pay about 2000€ or more for it. This is no longer necessary, and to be fair, this is a great improvement. But in return, the new law in its current form would worsen the rights of trans people drastically, affecting all areas of everyday life. 
+The fear of potential abuse is spread across the whole law text. Improvements for trans people were not the focus.
+Formerly, 2 psychiatric assessments were necessary to change your name and gender marker, you had to answer very intimate questions and you have to pay about 2000€ or more for it. This is no longer necessary, and to be fair, this is a great improvement. But in return, the new law in its current form would worsen the rights of trans people drastically, affecting all areas of everyday life.
 
 There is a waiting period of 3 months added to the law draft. After you've changed the name via the law, you have to wait 3 more months until the name and gender marker is corrected. It is incapacitating and in direct contrast to self-determination. It is also endangering, as conversion therapy during this period can forcibly drive trans people to revoke the declaration.
 
@@ -40,6 +40,6 @@ Germany is a shit country. After 16 years of having a right-conservative governm
 
 Unfortunately, we have the FDP in the government and they are blocking everything progressive because they would love to form a coalition with the conservatives in the next legislation period. The conservatives still have a lot of influence through the federal countries and overall they are gaining popularity again, so it's expected we're going to get the conservatives in the government in the next legislation. Hopefully not for another 16 years.
 
-But most importantly, it's better to stay optimistic. It's still a draft. I still hope the paragraphs about the waiting time, the reference to domiciliary rights and the paragraphs about potential abuse of the law get dropped, either while finalizing the law or afterwards through the constitutional court. 
+But most importantly, it's better to stay optimistic. It's still a draft. I still hope the paragraphs about the waiting time, the reference to domiciliary rights and the paragraphs about potential abuse of the law get dropped, either while finalizing the law or afterwards through the constitutional court.
 
 I would like to see trans organizations and also Sven Lehmann and others from the green party speaking up.
