@@ -27,6 +27,11 @@ pre[class*="language-"] {
   hyphens: none;
 }
 
+code[class*="language-"] *,
+pre[class*="language-"] * {
+  line-height: 1.6;
+}
+
 /* Code blocks */
 pre[class*="language-"] {
   padding: 1em;

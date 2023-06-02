@@ -1,5 +1,3 @@
-@layer reset;
-
 @import 'config/_reset.css' layer(reset);
 
 @import 'vendor/_prism.css';
