@@ -8,7 +8,6 @@ tags:
   - glsl
 prefetches:
   - href: https://cdn.jsdelivr.net/npm/shader-art@1.3.0/dist/index.esm.js
-    as: script
 ---
 
 In this article, I would like to give a short introduction on WebGL, a low level graphics engine running in the browser.

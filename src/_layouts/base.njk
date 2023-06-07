@@ -40,7 +40,7 @@
     <!-- prefetches -->
     {% if prefetches -%}
       {% for prefetch in prefetches %}
-        <link rel="prefetch" href="{{ prefetch.href }}" as="{{ prefetch.as }}" {% if prefetch.type %}type="{{ prefetch.type }}"{% endif %}>
+        <link rel="prefetch" href="{{ prefetch.href }}" {% if prefetch.crossorigin %}crossorigin{% endif %}>
       {% endfor %}
     {% endif %}
 
