@@ -28,11 +28,20 @@
     <!-- preloads in page data -->
     {% if preloads -%}
     <!-- prettier-ignore -->
-    <link rel="preload"
-            href="{{ preloads.href }}"
-            as="{{ preloads.as }}"
-            {% if preloads.type %}type={{ preloads.type }}{% endif %}{% if preloads.imagesrcset %}imagesrcset="{{ preloads.imagesrcset }}" {% endif %}
-            {% if preloads.crossorigin %}crossorigin{% endif %} />
+      {% for preload in preloads %}
+        <link rel="preload"
+          href="{{ preload.href }}"
+          as="{{ preload.as }}"
+          {% if preload.type %}type={{ preload.type }}{% endif %}{% if preload.imagesrcset %}imagesrcset="{{ preload.imagesrcset }}" {% endif %}
+          {% if preload.crossorigin %}crossorigin{% endif %} />
+      {% endfor %}
+    {% endif %}
+
+    <!-- prefetches -->
+    {% if prefetches -%}
+      {% for prefetch in prefetches %}
+        <link rel="prefetch" href="{{ prefetch.href }}" as="{{ prefetch.as }}" {% if prefetch.type %}type="{{ prefetch.type }}"{% endif %}>
+      {% endfor %}
     {% endif %}
 
     <!-- everything else: meta tags, icons, open graph etc.  -->

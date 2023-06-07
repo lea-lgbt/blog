@@ -6,6 +6,9 @@ tags:
   - javascript
   - webgl
   - glsl
+prefetches:
+  - href: https://unpkg.com/shader-art?module
+    as: script
 ---
 
 In this article, I would like to give a short introduction on WebGL, a low level graphics engine running in the browser.
