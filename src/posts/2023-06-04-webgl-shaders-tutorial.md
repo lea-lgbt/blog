@@ -7,7 +7,7 @@ tags:
   - webgl
   - glsl
 prefetches:
-  - href: https://unpkg.com/shader-art?module
+  - href: https://cdn.jsdelivr.net/npm/shader-art@1.3.0/dist/index.esm.js
     as: script
 ---
 
