@@ -3,7 +3,7 @@ const path = require('path');
 
 // Only one module.exports per configuration file, please!
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addShortcode("image", async function (src, alt, sizes = "100vw", classes = "") {
+  eleventyConfig.addShortcode("image", async function (src, alt, sizes = "(min-width: 888px) 862px, calc(100vw - 24px)", classes = "") {
     const urlPath = '/assets/images';
     const fullSrc = path.join('./src', urlPath, src);
 
